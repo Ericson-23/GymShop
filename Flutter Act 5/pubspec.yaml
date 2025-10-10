@@ -1,0 +1,33 @@
+name: gym_guide
+description: A new Flutter project.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.0.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.2.3   # Save data locally (profile info, goals, etc.)
+  provider: ^6.1.2             # State management
+  google_fonts: ^6.2.1         # Nice fonts
+  cupertino_icons: ^1.0.8      # iOS-style icons
+  fl_chart: ^0.69.0            # Charts (progress tracking)
+  video_player: ^2.8.1         # Video playback functionality
+  chewie: ^1.7.4               # Enhanced video player with controls
+  audioplayers: ^5.2.1         # Audio playback functionality
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/banners/
+    - assets/video/
+    - assets/audio/
